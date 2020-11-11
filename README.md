@@ -11,7 +11,10 @@ That means you can easily use it as a timer while you are working. I'm personall
 ESP32 and an arcade button, that's it!
 
 ESP32: https://www.aliexpress.com/item/4000340140634.html  
-Button: https://www.aliexpress.com/item/32764952742.html
+
+5 Colors LED Light 60MM Arcade Video Game Player Push Button Switch:  
+https://www.aliexpress.com/item/32764952742.html
+
 
 The button being directly alimented from one of the ESP32 pins you are not gonna get the maximum brightness but it's more than enough. Feel free to provide proper current otherwise.
 
