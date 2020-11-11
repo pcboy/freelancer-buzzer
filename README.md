@@ -19,6 +19,8 @@ The button being directly alimented from one of the ESP32 pins you are not gonna
 
 Check [include/configuration.h](include/configuration.h) 
 
+STATUS_URL is another endpoint I use to set the current button status on boot up. So you can unplug the button and plug it again and keep your status. If it returns 200, the status of the button will be marked as ON (light ON), otherwise OFF. Feel free to change the code if that doesn't suit you.
+
 # Compilation
 
 You need platformIO, then simply do platformio run -t upload.  
