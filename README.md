@@ -13,6 +13,8 @@ ESP32 and an arcade button, that's it!
 ESP32: https://www.aliexpress.com/item/4000340140634.html  
 Button: https://www.aliexpress.com/item/32764952742.html
 
+The button being directly alimented from one of the ESP32 pins you are not gonna get the maximum brightness but it's more than enough. Feel free to provide proper current otherwise.
+
 # Configuration
 
 Check [include/configuration.h](include/configuration.h) 
@@ -21,4 +23,3 @@ Check [include/configuration.h](include/configuration.h)
 
 You need platformIO, then simply do platformio run -t upload.  
 Check the platformio.ini, you may need to change the serial port depending on your config.
-
